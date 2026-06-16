@@ -1,0 +1,11 @@
+.env
+.env.*
+*.key
+*.pem
+secrets.*
+tokens.*
+node_modules/
+materials/
+reels_raw/
+reels_text/
+*.mp4
