@@ -17,7 +17,7 @@
 npx skills add viktorshab/content-reels-team --all --agent claude-code
 ```
 
-Для **Codex** замени флаг: `--agent codex`. Флаг агента обязателен — без него скиллы встанут в общий `.agents/`, и Claude Code их не увидит. С `--agent claude-code` они ставятся в `.claude/skills/` твоего проекта (локально, без `-g`).
+Для **Codex** замени флаг: `--agent codex`. Флаг агента обязателен. С `--agent claude-code` скиллы ставятся в `.claude/skills/` (это читает Claude Code), с `--agent codex` — в `.agents/skills/` (это читает Codex). Оба — локально в проект, без `-g`.
 
 ## Состав
 
