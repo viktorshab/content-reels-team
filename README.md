@@ -14,10 +14,10 @@
 Ставь **в папку проекта**, а не глобально — это узкие роли под один контур:
 
 ```bash
-npx skills add viktorshab/content-reels-team --all
+npx skills add viktorshab/content-reels-team --all --agent claude-code
 ```
 
-Без флага `-g` скиллы встают в `.claude/skills/` твоего проекта (Claude Code) / в скиллы проекта (Codex), а не на весь аккаунт.
+Для **Codex** замени флаг: `--agent codex`. Флаг агента обязателен — без него скиллы встанут в общий `.agents/`, и Claude Code их не увидит. С `--agent claude-code` они ставятся в `.claude/skills/` твоего проекта (локально, без `-g`).
 
 ## Состав
 
